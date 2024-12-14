@@ -11,4 +11,5 @@ vector<int> acmTeam(vector<string> topic) {
         }
     }
     return {h, cp};
+
 }  
