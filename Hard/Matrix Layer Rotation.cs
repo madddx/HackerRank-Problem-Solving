@@ -3,7 +3,6 @@ public static void matrixRotation(List<List<int>> matrix, int r)
     var col = matrix.First().Count;
     var row = matrix.Count;
     var layers = Math.Min(col, row) / 2;
-
     var layerLines = new List<List<int>>();
 
     // Iterate through layers to get them as a list of numbers.
